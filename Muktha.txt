@@ -1,0 +1,162 @@
+
+
+
+
+OOPS Questions: revise this on weekend
+===========
+https://www.javatpoint.com/corejava-interview-questions
+
+1 : what is encapsulation
+2 : what is polymorphism?types and usage of it?
+3 : what is abstraction?when to use it?try to revisse all
+4 : what is interface?
+5 : difference between abstract and interface
+6 : what is variable declared in interface?is it final and static
+7 : what is inheritance
+8 : what is constructor
+9 : what is this,this(),super,super(),final,static
+10 : what is coding at interface ?and how is it implemented?try to relate with polymorphism
+11 : Is java call be value or call by reference
+12 : Explain upcasting and downcasting in java?which casting does java does automatically
+
+
+Exception Handling
+=========
+1 : what is try,catch finally
+2 : throw ,throws
+3 : how to write custom exception class?what u have to implement?
+
+
+Collection Questions
+===========
+Note :Maintain presence of MIND and silence
+==
+1 : Each question u study pictorial representation(like object and reference ).Either u write or find in java t point or beginnersbook or google search
+2 : check methods in arraylist,hashmap,treeMap and etc(study from java t point)
+3 : what is Collection and Collections ?which is interface and which is class ?what all methods are there in class
+4 : In which package collection is present
+5 : will Map comes in Collections??
+6 : Understand which are interface in collection and Map
+
+
+HashMap:
+======
+1 : put string values in hashmap
+2 : put custom objects in hashmap
+3 : sort hashmap for string values
+4 : sort hashmap for custom objects values
+5 : can we add custom object reference as key
+6 : can we sort custom object reference in keys
+7 : how many ways u can iterate values (eg:for each,iterator and any other??)write programs to each iterate
+8 : how hashmap works internally(i will explain)
+
+
+TreeMap:
+========
+1 : what is treeMap?
+2 : difference between hashmap and treeMap
+3 : add  keys as strings  and  values also as string in treeMap
+4 : print treeMap values.check will it print keys in ascending order
+5 : add keys as custom object reference atleast 2 and check any exception
+6 : add keys as string and values as custom object reference and print it.
+7 : will treeMap sort keys or values
+8 : how will u sort treeMap based on values
+
+SET
+====
+
+HashSet :
+=====
+1 : what is hashset?
+2 : will it allow duplicate elements
+3 : will hashset sort elements
+4 : sort hashset in descending order
+
+TreeSet  :
+======== 
+
+1 : what is treeset?
+2 : what is difference between treeset and hashset
+3 : will it allow duplicate elements
+4 : display elements of iterate
+
+List:
+====
+
+ArrayList:
+======
+1 : what is arraylist?
+2 : difference between array and arraylist
+
+LinkedList : 
+=====
+1 : what is LinkedList?
+2 : What is Node in linkedlist? is it class ??
+3 : If LinkedList has Node class?then what all fields it has?
+4 : What is single linked list and double linkedlist
+5 : which is single list and double linked list in java?
+
+comparable and comparator
+=======
+1 : what is comparable ? is it interface?which method is present in this interface
+2 : what is comparator ? is it interface?which method is present in this interface
+3 : sort  string and custom object using compare and comparator
+4 : difference between comparable and comparator
+5 : when will u use comparable and comparator
+
+MISC in collection:
+============
+0 : Explain basic about synchronization and non-synchronization and then implementation on arraylist
+		note : seperate example without synchronization,concurrentModificationExample and etc
+		https://www.geeksforgeeks.org/synchronization-arraylist-java/
+1 : Explain concurrentModificationExample with and without exception and how to handle it (myself to explore  more)
+		https://www.journaldev.com/378/java-util-concurrentmodificationexception
+2 : what is fail-fast and fail-safe 
+3 : Explain Iterator problem : i,e when iterating object(say arraylist),if someother thread  modifies structure(adding or deleting) on same arraylist Object,
+		then we get conurrentModification exception(refer : ArrayListSynchronization) :
+		1 : To overcome this use either for,forloop to display list 
+		2 : or make iterating method as synchronization when u use Collections.synchronizatedList
+		3 : or use CopyOnwriteArrayList : it gives copy while modfying
+
+Object class
+=======
+1 : what is object class
+2 : what are methods are present in Object class
+3 : Is all class are child of Object class
+4 : when to override below methods with example
+		a) equals, hashcode ,tostring(),compareto,
+	
+	
+	
+Serialization
+======
+1 : what is serialization?
+2 : what is deserialization?
+3 : what if i dont want serializae particular field??transient or static or both we can use
+4 : what is serial version in serialization?
+5 : How will u make class as serialziable?
+6 : what is marker interface?is serializable interface is marker?
+7 : 
+
+Serialization :Mainly focus on state of Object
+==============
+1 : Explain serialization of my git hub example
+
+key points : Important link 
+=====
+https://www.geeksforgeeks.org/object-serialization-inheritance-java/#:~:text=Serialization%20is%20a%20mechanism%20of,object%20into%20a%20byte%20stream.&text=So%20we%20can%20say%20that,during%20serialization%20in%20this%20case.
+
+1 : If super class implements serialzable,then child class is also serialzable without implementing it
+
+2 : If a superclass is not serializable then subclass can still be serialized
+
+3 : If the superclass is serializable but we don’t want the subclass to be serialized : override write and read object and throw exception in child class
+
+
+Threads :
+=======
+
+
+
+
+
